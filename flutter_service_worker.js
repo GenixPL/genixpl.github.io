@@ -2,11 +2,11 @@
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "/index.html": "abb72016b8d1a019345deb6e95124f00",
-"/main.dart.js": "5510c517231441d3d7cd1299549d7cd2",
+"/main.dart.js": "5edddfcbbe8f793296a1073ed6e0521e",
 "/icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "/icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "/manifest.json": "0cd4c9d954c3e172e7515a3c1053e4e0",
-"/assets/LICENSE": "457e6200beb21ad547fb4c5d2ec0ad48",
+"/assets/LICENSE": "9f69edcc25795745c09624396a67241f",
 "/assets/AssetManifest.json": "e26ab0f0a9ebee8025260de29a88a4ca",
 "/assets/FontManifest.json": "5fa2baa1355ee1ffd882bec6ab6780c7",
 "/assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "d21f791b837673851dd14f7c132ef32e",
@@ -34,9 +34,7 @@ self.addEventListener('fetch', function (event) {
         if (response) {
           return response;
         }
-        return fetch(event.request, {
-          credentials: 'include'
-        });
+        return fetch(event.request);
       })
   );
 });
