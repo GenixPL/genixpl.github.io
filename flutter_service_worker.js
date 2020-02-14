@@ -2,11 +2,11 @@
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "/index.html": "abb72016b8d1a019345deb6e95124f00",
-"/main.dart.js": "92a00dcc45dc8d1edf1d03f39e451b78",
+"/main.dart.js": "3e4b87c8a0df524212d480a319bb758a",
 "/icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "/icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "/manifest.json": "0cd4c9d954c3e172e7515a3c1053e4e0",
-"/assets/LICENSE": "9f69edcc25795745c09624396a67241f",
+"/assets/LICENSE": "d11471c61cd65c0a30c3a33403bf2b38",
 "/assets/AssetManifest.json": "b8311ab0b26fe7610191c3f5cc873376",
 "/assets/FontManifest.json": "5fa2baa1355ee1ffd882bec6ab6780c7",
 "/assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "d21f791b837673851dd14f7c132ef32e",
