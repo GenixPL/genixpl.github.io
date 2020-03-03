@@ -2,12 +2,12 @@
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "/index.html": "abb72016b8d1a019345deb6e95124f00",
-"/main.dart.js": "1e75371db9f0cfd2985296569c8a2eb3",
+"/main.dart.js": "38055416daeb9f662d64c06ac427dad5",
 "/icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "/icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "/manifest.json": "0cd4c9d954c3e172e7515a3c1053e4e0",
-"/assets/LICENSE": "467711b76bb8dcbd232f150e244bdeb1",
-"/assets/AssetManifest.json": "9cc2c500f7c1593046ddb23113d2d781",
+"/assets/LICENSE": "9e8047ca7033dc74e90a38bb06622682",
+"/assets/AssetManifest.json": "e383947f2e1ba3db808a7de949bd0326",
 "/assets/FontManifest.json": "893926fa32b11bf7016814823bf8a1ca",
 "/assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "d21f791b837673851dd14f7c132ef32e",
 "/assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "bdd8d75eb9e6832ccd3117e06c51f0d3",
@@ -22,7 +22,9 @@ const RESOURCES = {
 "/assets/assets/pictile/screen_3.jpg": "de66d63a726e919d8bea3f3c029b7d27",
 "/assets/assets/pictile/screen_1.jpg": "3790c5325c82edf840673cbe763933ef",
 "/assets/assets/pictile/logo.png": "4380ecb7b6a0a60d8a1fcb9ae9b911f5",
-"/assets/assets/placelytics/logo.jpg": "2b8978bc5f75d0319dcbd6672e7d5329"
+"/assets/assets/placelytics/logo.jpg": "2b8978bc5f75d0319dcbd6672e7d5329",
+"/assets/assets/thg/logo.png": "6528812ec7f53704ccf0a847f194599a",
+"/assets/assets/meteorite_animation.flr": "68ceada3e5f9c69374ba55d15226512b"
 };
 
 self.addEventListener('activate', function (event) {
@@ -44,7 +46,9 @@ self.addEventListener('fetch', function (event) {
         if (response) {
           return response;
         }
-        return fetch(event.request);
+        return fetch(event.request, {
+          credentials: 'include'
+        });
       })
   );
 });
