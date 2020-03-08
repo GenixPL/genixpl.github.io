@@ -1,10 +1,11 @@
 'use strict';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "/assets\AssetManifest.json": "58af0e7d7a4ca906de6a92eea33229f5",
+  "/assets\AssetManifest.json": "396bb013b759b89b6645d7902b307e9f",
 "/assets\assets\background.jpg": "63ae03b3ad9d8a0743d7450e784775d5",
 "/assets\assets\background_empty.jpg": "9a23165d7a36138f1eb13dc73fd928ff",
 "/assets\assets\construction.jpeg": "79dd2bc831fe08bad12e2e3a6c7a74c2",
+"/assets\assets\mailbox.jpg": "16f60cbce019b67f5ca3be217f1f08a9",
 "/assets\assets\message.jpg": "1fc6ed102afa23973c0a4f1e156fbd7a",
 "/assets\assets\notes.jpg": "d7caec6e9290f38c620122f792d5c29e",
 "/assets\assets\rive_icon.png": "8907514773858755e6c846ff936237b0",
@@ -22,7 +23,7 @@ const RESOURCES = {
 "/icons\Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "/icons\Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "/index.html": "025a75f012ec686924e3a3a2fbc1cd1b",
-"/main.dart.js": "ebb023ae2fe959dc71d3bdad74dfc399",
+"/main.dart.js": "91049600b51b643a7c9afc9b3761b769",
 "/manifest.json": "50e07f8968f4bb98f3b1ea2f50f09f75"
 };
 
